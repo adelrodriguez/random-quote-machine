@@ -1,0 +1,79 @@
+body {
+	background-color: #232323;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
+	margin: 0px;
+	padding: 0px;
+
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	   -moz-transition: background 0.5s;
+}
+
+#container {
+	max-width: 1000px;
+	margin: 100px auto;
+	
+	font-weight: bold;
+}
+
+#quote {
+	font-family: 'Quicksand';
+	font-size: 40px;
+
+	padding: 0 30px;
+	margin-bottom: 50px;
+}
+
+#author {
+	font-weight: 300;
+	font-style: italic;
+	text-align: right;
+}
+
+#buttons {
+	height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#twitter {
+	border: solid 2px white;
+	border-radius: 15px;
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+button {
+	font: inherit;
+	color: white;
+
+	border: solid 2px white;
+	border-radius: 15px;
+	padding: 15px;
+
+	background: none;
+	outline: none;
+}
+
+#footer {
+	position: relative;
+
+	height: 100px;
+	width: 100%;
+
+	padding-top: 20px;
+	margin-top: 20px;
+
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 10px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #232323;
+}
